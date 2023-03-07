@@ -8,7 +8,7 @@ public class main2 {
 
         System.out.println(person);
         System.out.println(closet);
-        person.action(closet.getAction());
+        person.action(closet.getAction()); // он специально открывает и закрывает, потому что не помнит, что хотел сделать)
         person.action(closet.getAction());
         person.action(closet.getAction());
 
